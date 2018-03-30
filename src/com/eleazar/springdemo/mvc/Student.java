@@ -1,14 +1,20 @@
+/*
+ * COMMENTS DICTIONARY:
+ * 1-Option to load values from the Java class Student into the drop down list on jsp view
+ * */
+
 package com.eleazar.springdemo.mvc;
 
-import java.util.LinkedHashMap;
+//1-import java.util.LinkedHashMap;
 
 public class Student {
 	private String firstName;
 	private String lastName;
 	private String country;
-	private LinkedHashMap<String, String> countryOptions;
+	//1-private LinkedHashMap<String, String> countryOptions;
 	
 	public Student() {
+		/*1-
 		countryOptions = new LinkedHashMap<>();
 		
 		countryOptions.put("BR", "Brazil");
@@ -16,6 +22,7 @@ public class Student {
 		countryOptions.put("FR", "France");
 		countryOptions.put("DN", "Germany");
 		countryOptions.put("US", "United States of America");
+		*/
 	}
 
 	public String getFirstName() {
@@ -42,9 +49,11 @@ public class Student {
 		this.country = country;
 	}
 
+	/*1-
 	public LinkedHashMap<String, String> getCountryOptions() {
 		return countryOptions;
 	}
+	*/
 	
 	
 }
