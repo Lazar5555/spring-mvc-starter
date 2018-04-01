@@ -8,5 +8,7 @@
 		Student: ${ student.firstName } ${ student.lastName }
 		<br/>
 		Country: ${ student.country }
+		<br/>
+		Student's favorite Language: ${ student.favoriteLanguage }
 	</body>
 </html>
