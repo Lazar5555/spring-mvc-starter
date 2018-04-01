@@ -5,7 +5,7 @@
 
 package com.eleazar.springdemo.mvc;
 
-//1-import java.util.LinkedHashMap;
+import java.util.LinkedHashMap;
 
 public class Student {
 	private String firstName;
@@ -13,6 +13,7 @@ public class Student {
 	private String country;
 	//1-private LinkedHashMap<String, String> countryOptions;
 	private String favoriteLanguage;
+	private LinkedHashMap<String, String> favoriteLanguageOpts;
 	
 	public Student() {
 		/*1-
@@ -24,6 +25,14 @@ public class Student {
 		countryOptions.put("DN", "Germany");
 		countryOptions.put("US", "United States of America");
 		*/
+		
+		//Load the options for favorite language
+		favoriteLanguageOpts = new LinkedHashMap<>();
+		
+		favoriteLanguageOpts.put("Java", "Java");
+		favoriteLanguageOpts.put("Python", "Python");
+		favoriteLanguageOpts.put("Ruby", "Ruby");
+		favoriteLanguageOpts.put("JavaScript", "JavaScript");
 	}
 
 	public String getFirstName() {
@@ -64,5 +73,8 @@ public class Student {
 		this.favoriteLanguage = favoriteLanguage;
 	}
 
-	
+	public LinkedHashMap<String, String> getFavoriteLanguageOpts() {
+		return favoriteLanguageOpts;
+	}
+
 }
