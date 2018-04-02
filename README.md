@@ -10,4 +10,7 @@
     - javax.el-3.0.1-b09
     - jboss-logging-3.3.2.Final
     - validation-api-2.0.1.Final
+
+## Downloading and Adding Maven to PATH on MacOS(10.13)
+- Follow the steps on https://www.admfactory.com/how-to-install-maven-on-macos/
     
