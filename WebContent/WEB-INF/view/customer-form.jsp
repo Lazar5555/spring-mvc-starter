@@ -20,6 +20,11 @@
 			<form:input path="freePasses"/>
 			<form:errors path="freePasses" cssClass="error"/>
 			<br/>
+			Zip Code:
+			<form:input path="zipcode"/>
+			<form:errors path="zipcode" cssClass="error"/>
+			<br/>
+			
 			<input type="submit" value="Submit">		
 		</form:form>
 		
