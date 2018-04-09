@@ -24,6 +24,10 @@
 			<form:input path="zipcode"/>
 			<form:errors path="zipcode" cssClass="error"/>
 			<br/>
+			Course Code:
+			<form:input path="courseCode"/>
+			<form:errors path="courseCode" cssClass="error"/>
+			<br/>
 			
 			<input type="submit" value="Submit">		
 		</form:form>

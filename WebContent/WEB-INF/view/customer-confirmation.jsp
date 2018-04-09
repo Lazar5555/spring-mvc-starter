@@ -12,5 +12,7 @@
 		Free passes: ${ customer.freePasses }
 		<br/>
 		Zip code: ${ customer.zipcode }
+		<br/>
+		Course code: ${ customer.courseCode }
 	</body>
 </html>
