@@ -24,7 +24,7 @@ public class Customer {
 	@Pattern(regexp="^[0-9]{5}", message="Just 5 numbers") // regexp for just numbers and letters: ^[a-zA-Z0-9]{5}
 	private String zipcode;
 	
-	@CourseCode(value="MEX", message="must starts with MEX")
+	@CourseCode(value={"MEX","LUV"}, message="must starts with LUV or MEX")
 	private String courseCode;
 	
 	public String getName() {
